@@ -1,10 +1,879 @@
 {
   "schema": 2,
-  "generatedAt": null,
+  "generatedAt": "2026-11-10T21:14:03.794Z",
   "source": "Chess.com PubAPI",
-  "status": "awaiting-first-automation-run",
-  "monthlyRace": { "month": null, "eligibleCount": 0, "rows": [] },
-  "overallLeaderboard": { "rows": [] },
-  "clubMatches": { "record": { "wins": 0, "losses": 0, "draws": 0 }, "totals": { "registered": 0, "inProgress": 0, "finished": 0 }, "matches": [] },
-  "notes": { "history": "Tracking begins at first successful automation run." }
+  "club": {
+    "name": "Nashediyon Ki Toli - NKT",
+    "slug": "nashediyon-ki-toli-nkt",
+    "memberCount": 911,
+    "dailyRating": 816,
+    "url": "https://www.chess.com/club/nashediyon-ki-toli-nkt"
+  },
+  "freshness": {
+    "memberRoster": "Chess.com may cache public endpoint responses for up to 12 hours.",
+    "playerStatsProcessed": 911,
+    "playerStatsFailed": 0,
+    "membersTotal": 911
+  },
+  "recentMembers": [
+    {
+      "username": "mittens_stockcat",
+      "joined": 1794370253
+    },
+    {
+      "username": "udit_x_penaldo",
+      "joined": 1794347065
+    },
+    {
+      "username": "ghhost123",
+      "joined": 1794343006
+    }
+  ],
+  "monthlyRace": {
+    "month": "2026-11",
+    "startedAt": "2026-11-10T21:14:03.794Z",
+    "eligibleCount": 0,
+    "rows": []
+  },
+  "overallLeaderboard": {
+    "month": "2026-11",
+    "methodology": "Automated member score: rating progress 50%, games played 35%, game win rate 15%. Individual team-match participation is not exposed by the public club matches endpoint and is not included.",
+    "rows": [
+      {
+        "username": "damjan1989",
+        "ratingChange": 0,
+        "games": 81716,
+        "wins": 43607,
+        "losses": 28794,
+        "draws": 9315,
+        "score": 43,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 1
+      },
+      {
+        "username": "trimitziosp7",
+        "ratingChange": 0,
+        "games": 81730,
+        "wins": 39726,
+        "losses": 35845,
+        "draws": 6159,
+        "score": 42.3,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 2
+      },
+      {
+        "username": "watchful_boss",
+        "ratingChange": 0,
+        "games": 70050,
+        "wins": 30569,
+        "losses": 37734,
+        "draws": 1747,
+        "score": 36.5,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 3
+      },
+      {
+        "username": "emir_yoel",
+        "ratingChange": 0,
+        "games": 63834,
+        "wins": 29125,
+        "losses": 34609,
+        "draws": 100,
+        "score": 34.2,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 4
+      },
+      {
+        "username": "shantia-s",
+        "ratingChange": 0,
+        "games": 54250,
+        "wins": 27481,
+        "losses": 23934,
+        "draws": 2835,
+        "score": 30.8,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 5
+      },
+      {
+        "username": "findantheelf",
+        "ratingChange": 0,
+        "games": 53618,
+        "wins": 27390,
+        "losses": 24343,
+        "draws": 1885,
+        "score": 30.6,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 6
+      },
+      {
+        "username": "tanahp",
+        "ratingChange": 0,
+        "games": 51288,
+        "wins": 24358,
+        "losses": 25921,
+        "draws": 1009,
+        "score": 29.1,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 7
+      },
+      {
+        "username": "lusitorey7",
+        "ratingChange": 0,
+        "games": 50673,
+        "wins": 23633,
+        "losses": 25727,
+        "draws": 1313,
+        "score": 28.7,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 8
+      },
+      {
+        "username": "aakuttan",
+        "ratingChange": 0,
+        "games": 51491,
+        "wins": 22743,
+        "losses": 28323,
+        "draws": 425,
+        "score": 28.7,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 9
+      },
+      {
+        "username": "spudwebb11",
+        "ratingChange": 0,
+        "games": 41095,
+        "wins": 24729,
+        "losses": 13708,
+        "draws": 2658,
+        "score": 26.6,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 10
+      },
+      {
+        "username": "josemi45",
+        "ratingChange": 0,
+        "games": 41409,
+        "wins": 20275,
+        "losses": 20065,
+        "draws": 1069,
+        "score": 25.1,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 11
+      },
+      {
+        "username": "theovsme",
+        "ratingChange": 0,
+        "games": 39484,
+        "wins": 19432,
+        "losses": 18689,
+        "draws": 1363,
+        "score": 24.3,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 12
+      },
+      {
+        "username": "cuerosky",
+        "ratingChange": 0,
+        "games": 30619,
+        "wins": 22164,
+        "losses": 7411,
+        "draws": 1044,
+        "score": 24,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 13
+      },
+      {
+        "username": "sumitkumar01",
+        "ratingChange": 0,
+        "games": 34692,
+        "wins": 17263,
+        "losses": 16571,
+        "draws": 858,
+        "score": 22.3,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 14
+      },
+      {
+        "username": "jyotinjai",
+        "ratingChange": 0,
+        "games": 34443,
+        "wins": 16839,
+        "losses": 15423,
+        "draws": 2181,
+        "score": 22.1,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 15
+      },
+      {
+        "username": "tsehayedimtsu",
+        "ratingChange": 0,
+        "games": 32899,
+        "wins": 15929,
+        "losses": 16094,
+        "draws": 876,
+        "score": 21.4,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 16
+      },
+      {
+        "username": "desert_storm1974",
+        "ratingChange": 0,
+        "games": 30809,
+        "wins": 15004,
+        "losses": 12056,
+        "draws": 3749,
+        "score": 20.5,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 17
+      },
+      {
+        "username": "maiconramazzotte99",
+        "ratingChange": 0,
+        "games": 28026,
+        "wins": 13917,
+        "losses": 12556,
+        "draws": 1553,
+        "score": 19.5,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 18
+      },
+      {
+        "username": "dlohumi",
+        "ratingChange": 0,
+        "games": 27340,
+        "wins": 13494,
+        "losses": 13599,
+        "draws": 247,
+        "score": 19.1,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 19
+      },
+      {
+        "username": "honey-badger1999",
+        "ratingChange": 0,
+        "games": 28437,
+        "wins": 12862,
+        "losses": 12629,
+        "draws": 2946,
+        "score": 19,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 20
+      },
+      {
+        "username": "jajagogoo",
+        "ratingChange": 0,
+        "games": 26874,
+        "wins": 13146,
+        "losses": 13262,
+        "draws": 466,
+        "score": 18.8,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 21
+      },
+      {
+        "username": "josepmise",
+        "ratingChange": 0,
+        "games": 27382,
+        "wins": 12172,
+        "losses": 11896,
+        "draws": 3314,
+        "score": 18.4,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 22
+      },
+      {
+        "username": "emperorprasanna",
+        "ratingChange": 0,
+        "games": 25997,
+        "wins": 12202,
+        "losses": 12501,
+        "draws": 1294,
+        "score": 18.2,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 23
+      },
+      {
+        "username": "boqueronazo",
+        "ratingChange": 0,
+        "games": 25282,
+        "wins": 12035,
+        "losses": 12117,
+        "draws": 1130,
+        "score": 18,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 24
+      },
+      {
+        "username": "invatsajoc",
+        "ratingChange": 0,
+        "games": 23940,
+        "wins": 11766,
+        "losses": 11387,
+        "draws": 787,
+        "score": 17.6,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 25
+      },
+      {
+        "username": "gaston_85",
+        "ratingChange": 0,
+        "games": 23995,
+        "wins": 11531,
+        "losses": 11766,
+        "draws": 698,
+        "score": 17.5,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 26
+      },
+      {
+        "username": "jeetbhakat",
+        "ratingChange": 0,
+        "games": 24318,
+        "wins": 11437,
+        "losses": 11688,
+        "draws": 1193,
+        "score": 17.5,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 27
+      },
+      {
+        "username": "sgt_claudionor",
+        "ratingChange": 0,
+        "games": 22484,
+        "wins": 11797,
+        "losses": 9821,
+        "draws": 866,
+        "score": 17.5,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 28
+      },
+      {
+        "username": "saksham_100",
+        "ratingChange": 0,
+        "games": 24426,
+        "wins": 11395,
+        "losses": 11810,
+        "draws": 1221,
+        "score": 17.5,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 29
+      },
+      {
+        "username": "m_040",
+        "ratingChange": 0,
+        "games": 22415,
+        "wins": 10851,
+        "losses": 10565,
+        "draws": 999,
+        "score": 16.9,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 30
+      },
+      {
+        "username": "dr_murat_ertugrul",
+        "ratingChange": 0,
+        "games": 22133,
+        "wins": 10823,
+        "losses": 10710,
+        "draws": 600,
+        "score": 16.8,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 31
+      },
+      {
+        "username": "deepesh1058",
+        "ratingChange": 0,
+        "games": 21852,
+        "wins": 10693,
+        "losses": 10666,
+        "draws": 493,
+        "score": 16.7,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 32
+      },
+      {
+        "username": "vvv_xyz",
+        "ratingChange": 0,
+        "games": 14689,
+        "wins": 9883,
+        "losses": 4104,
+        "draws": 702,
+        "score": 16.4,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 33
+      },
+      {
+        "username": "umesh8231",
+        "ratingChange": 0,
+        "games": 21436,
+        "wins": 10058,
+        "losses": 9945,
+        "draws": 1433,
+        "score": 16.2,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 34
+      },
+      {
+        "username": "28gaurav",
+        "ratingChange": 0,
+        "games": 19797,
+        "wins": 9758,
+        "losses": 9380,
+        "draws": 659,
+        "score": 15.9,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 35
+      },
+      {
+        "username": "falcoz_174",
+        "ratingChange": 0,
+        "games": 18986,
+        "wins": 9571,
+        "losses": 9080,
+        "draws": 335,
+        "score": 15.7,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 36
+      },
+      {
+        "username": "adarsh_neutron",
+        "ratingChange": 0,
+        "games": 19252,
+        "wins": 9368,
+        "losses": 8879,
+        "draws": 1005,
+        "score": 15.5,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 37
+      },
+      {
+        "username": "kamran1990114",
+        "ratingChange": 0,
+        "games": 18194,
+        "wins": 9247,
+        "losses": 8101,
+        "draws": 846,
+        "score": 15.4,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 38
+      },
+      {
+        "username": "tactical_chess64",
+        "ratingChange": 0,
+        "games": 19656,
+        "wins": 9138,
+        "losses": 9506,
+        "draws": 1012,
+        "score": 15.4,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 39
+      },
+      {
+        "username": "1yummy_chess",
+        "ratingChange": 0,
+        "games": 18507,
+        "wins": 8996,
+        "losses": 8648,
+        "draws": 863,
+        "score": 15.2,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 40
+      },
+      {
+        "username": "lunar_addicted",
+        "ratingChange": 0,
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "score": 15,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 41
+      },
+      {
+        "username": "ellieeee_143",
+        "ratingChange": 0,
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "score": 15,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 42
+      },
+      {
+        "username": "rizzinvein",
+        "ratingChange": 0,
+        "games": 3,
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "score": 15,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 43
+      },
+      {
+        "username": "yohstepdad",
+        "ratingChange": 0,
+        "games": 3,
+        "wins": 3,
+        "losses": 0,
+        "draws": 0,
+        "score": 15,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 44
+      },
+      {
+        "username": "gamblerdan",
+        "ratingChange": 0,
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "draws": 0,
+        "score": 15,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 45
+      },
+      {
+        "username": "renukeswari",
+        "ratingChange": 0,
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "draws": 0,
+        "score": 15,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 46
+      },
+      {
+        "username": "vgmalu",
+        "ratingChange": 0,
+        "games": 18153,
+        "wins": 8452,
+        "losses": 8206,
+        "draws": 1495,
+        "score": 14.8,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 47
+      },
+      {
+        "username": "feiren123",
+        "ratingChange": 0,
+        "games": 18602,
+        "wins": 8456,
+        "losses": 8876,
+        "draws": 1270,
+        "score": 14.8,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 48
+      },
+      {
+        "username": "mardekar31",
+        "ratingChange": 0,
+        "games": 19164,
+        "wins": 8298,
+        "losses": 9317,
+        "draws": 1549,
+        "score": 14.7,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 49
+      },
+      {
+        "username": "yash_agarwal_chess",
+        "ratingChange": 0,
+        "games": 17110,
+        "wins": 8373,
+        "losses": 8065,
+        "draws": 672,
+        "score": 14.7,
+        "scoreBasis": "rating progress 50% · game activity 35% · game win rate 15%",
+        "rank": 50
+      }
+    ]
+  },
+  "clubMatches": {
+    "record": {
+      "wins": 6,
+      "losses": 0,
+      "draws": 7
+    },
+    "totals": {
+      "registered": 4,
+      "inProgress": 0,
+      "finished": 25
+    },
+    "matches": [
+      {
+        "id": "https://api.chess.com/pub/match/2021602",
+        "name": "NKT CASABLANCA CHESS DAILY 3",
+        "opponent": "avengers-chess-club-1",
+        "result": null,
+        "startTime": 1794897900,
+        "timeClass": "daily",
+        "status": "registered"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/2021386",
+        "name": "NKT CASABLANCA ",
+        "opponent": "let-s-be-fair",
+        "result": null,
+        "startTime": 1794837600,
+        "timeClass": "daily",
+        "status": "registered"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/2021384",
+        "name": "NKT Casablanca Chess ",
+        "opponent": "peak-performers",
+        "result": null,
+        "startTime": 1794744900,
+        "timeClass": "daily",
+        "status": "registered"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/2021382",
+        "name": "NKT CASABLANCA CHESS 2",
+        "opponent": "iron-maiden",
+        "result": null,
+        "startTime": 1794577500,
+        "timeClass": "daily",
+        "status": "registered"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1976542",
+        "name": "Rematch: Promote to King vs Nashediyon Ki Toli - NKT",
+        "opponent": "promote-to-king",
+        "result": "lose",
+        "startTime": 1784557982,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1969116",
+        "name": "NKT CASABLANCA CHESS DAILY MATCH 1",
+        "opponent": "chess-japan",
+        "result": "lose",
+        "startTime": 1783068543,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1965784",
+        "name": "NKT Casablanca chess Daily Match 2",
+        "opponent": "d-a-c-i-i",
+        "result": "draw",
+        "startTime": 1782498600,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1965780",
+        "name": "NKT Casablanca chess Daily ",
+        "opponent": "d-a-c-i-i",
+        "result": "draw",
+        "startTime": 1782411300,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1962752",
+        "name": "Plogger",
+        "opponent": "chess-japan",
+        "result": "win",
+        "startTime": 1782122701,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1962756",
+        "name": "NKT DAILY MATCH SPECIAL",
+        "opponent": "promote-to-king",
+        "result": "lose",
+        "startTime": 1781868781,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1959994",
+        "name": "NKT Freestyle daily",
+        "opponent": "the-dark-and-white-world-of-woman-chess-club",
+        "result": "draw",
+        "startTime": 1781595900,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1960010",
+        "name": "NKT Daily matchups",
+        "opponent": "geto-daci",
+        "result": "win",
+        "startTime": 1781335982,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1956384",
+        "name": "The Fair Players Club - Open Seek",
+        "opponent": "the-fair-players-club",
+        "result": "win",
+        "startTime": 1780747381,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1956380",
+        "name": "1000-1200",
+        "opponent": "chess-school",
+        "result": "win",
+        "startTime": 1780463100,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1951347",
+        "name": "4",
+        "opponent": "the-best-kids-club",
+        "result": "win",
+        "startTime": 1780453981,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1951345",
+        "name": "3",
+        "opponent": "ultimate-admin-friends",
+        "result": "lose",
+        "startTime": 1780283941,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1946649",
+        "name": "Plogger #25",
+        "opponent": "chesscom-vs-lichessorg",
+        "result": "lose",
+        "startTime": 1780045383,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1950219",
+        "name": "NKT Daily Matchups",
+        "opponent": "team-turkmenistan",
+        "result": "lose",
+        "startTime": 1779968943,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1952647",
+        "name": "The Burn Knuckles vs Nashediyon Ki Toli - NKT",
+        "opponent": "the-burn-knuckles",
+        "result": "draw",
+        "startTime": 1779861600,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1945215",
+        "name": "NKT CLUB TOUR 3 ",
+        "opponent": "dobrogea",
+        "result": "lose",
+        "startTime": 1779028442,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1944075",
+        "name": "NKT CLUB TOUR 2",
+        "opponent": "yemen-chess-team",
+        "result": "win",
+        "startTime": 1778682842,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1941283",
+        "name": "OBC 101 BOOK",
+        "opponent": "opening-book-club",
+        "result": "draw",
+        "startTime": 1778464800,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1940911",
+        "name": "NKT CLUB TOUR 1 ",
+        "opponent": "lets-talk-3",
+        "result": "lose",
+        "startTime": 1778085183,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1944073",
+        "name": "vanilla #12",
+        "opponent": "chess-com-vs-chesskid",
+        "result": "draw",
+        "startTime": 1778001243,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1935079",
+        "name": "NKT GRAND TOUR ",
+        "opponent": "the-farm",
+        "result": "lose",
+        "startTime": 1776700985,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1928347",
+        "name": "Daily #4",
+        "opponent": "the-burn-knuckles",
+        "result": "lose",
+        "startTime": 1775289841,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1926305",
+        "name": "N.K.T. 24H Think Tank ",
+        "opponent": "2de-team-nederland",
+        "result": "lose",
+        "startTime": 1774454581,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1925249",
+        "name": "N.K.T. 24H Think Tank",
+        "opponent": "2de-team-nederland",
+        "result": "draw",
+        "startTime": 1774183500,
+        "timeClass": "daily",
+        "status": "finished"
+      },
+      {
+        "id": "https://api.chess.com/pub/match/1922795",
+        "name": "2026 T-W-8-800",
+        "opponent": "the-london-trainer-official-club",
+        "result": "lose",
+        "startTime": 1773785042,
+        "timeClass": "daily",
+        "status": "finished"
+      }
+    ],
+    "limitation": "Club-level match results only; the public endpoint does not identify individual member contributions."
+  },
+  "mostImprovedMember": null,
+  "notes": {
+    "history": "Tracking begins at first successful automation run. New members become eligible after their first successful baseline snapshot.",
+    "unsupported": [
+      "MCA points leaderboard",
+      "Vote Chess points leaderboard",
+      "individual club-match contribution leaderboard"
+    ]
+  }
 }
