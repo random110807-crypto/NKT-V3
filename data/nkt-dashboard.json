@@ -1,0 +1,10 @@
+{
+  "schema": 2,
+  "generatedAt": null,
+  "source": "Chess.com PubAPI",
+  "status": "awaiting-first-automation-run",
+  "monthlyRace": { "month": null, "eligibleCount": 0, "rows": [] },
+  "overallLeaderboard": { "rows": [] },
+  "clubMatches": { "record": { "wins": 0, "losses": 0, "draws": 0 }, "totals": { "registered": 0, "inProgress": 0, "finished": 0 }, "matches": [] },
+  "notes": { "history": "Tracking begins at first successful automation run." }
+}
